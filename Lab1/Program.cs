@@ -4,12 +4,12 @@ using System.Security.Cryptography;
 
 class Program
 {
-    static void Main(string[] args)
+    static int Main(string[] args)
     {
         // Step 1
         /*Kyle Kostansek IT 1050 Lab 1
         Step 2 */
-        Console.WriteLine(KyleKostansek IT 1050);
+        Console.WriteLine(KyleKostansek IT1050);
 
         //Step 3//
         int myNum = 23;
@@ -41,10 +41,45 @@ class Program
         Convert.ToInt32();
         Console.WriteLine("Your name and age are: " + Name + Age);
 
-    
+        //Step 7//
+        int num1 = 5;
+        int num2 = 10;
+        Console.WriteLine(num1 + 10);
+        Console.WriteLine(num2 + 10);
+        Console.WriteLine(num1 - 2);
+        Console.WriteLine(num2 - 2);
+        Console.WriteLine(num1 * 3);
+        Console.WriteLine(num2 * 3);
+        Console.WriteLine(num1 / 2);
+        Console.WriteLine(num2 / 2);
+        Console.WriteLine(num1 % 2);
+        Console.WriteLine(num2 % 2);
+
+        //Step 8//
+        float dec = 1.123456789F;
+        Console.WriteLine(dec);
+        double dec2 = 1.123456789D;
+        Console.WriteLine(dec2);
+
+        //Step 9//
+        int num3 = 10;
+        Console.WriteLine(num3++);
+        Console.WriteLine(num3--);
+
+
 
 
         
+
+        
+
+
+
+
+
+
+
+
 
 
 

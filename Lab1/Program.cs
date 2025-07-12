@@ -9,7 +9,7 @@ class Program
         // Step 1
         /*Kyle Kostansek IT 1050 Lab 1
         Step 2 */
-        Console.WriteLine(KyleKostansek IT1050);
+        Console.WriteLine("KyleKostansek IT1050");
 
         //Step 3//
         int myNum = 23;

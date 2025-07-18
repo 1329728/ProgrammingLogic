@@ -4,7 +4,7 @@ namespace Lab3;
 
 class Program
 {
-    private static bool i;
+    private static readonly bool i;
 
     static int Main(string[] args)
     {

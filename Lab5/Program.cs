@@ -2,7 +2,7 @@
 namespace Lab5;
 
 using System;
-
+//Step 1
 class Animal
 {
     public virtual void animalSound()
@@ -10,7 +10,7 @@ class Animal
         Console.WriteLine("The animal makes a sound");
     }
 }
-
+//Step 2
 class Cat : Animal
 {
     public override void animalSound()
@@ -26,7 +26,7 @@ class Dog : Animal
         Console.WriteLine("The dog says: bow wow");
     }
 }
-
+//Step 3
 class Program
 {
     static void Main(string[] args)
